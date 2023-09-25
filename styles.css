@@ -1,21 +1,19 @@
-.logo {
-    background: left / cover url('https://i.ytimg.com/vi/iAhifrd859w/maxresdefault.jpg');
-    display: flex;
-    height: 120px;
-    align-items: center;
-    justify-content: center;
-    font:
-      bold calc(1em + 2 * (100vw - 120px) / 100) 'Dancing Script',
-      fantasy;
-    color: #ff0083;
-    text-shadow: #000 2px 2px 0.2rem;
-  }
-  
-  header > h1 {
-    margin-bottom: 0;
-  }
-  
-  header > time {
-    font: italic 0.7rem sans-serif;
-  }
-  
+/* Estilos para los encabezados de la tabla */
+th {
+    background-color: #0074d9; /* Color de fondo azul */
+    color: white; /* Color de texto blanco */
+}
+
+/* Estilos para las filas de datos (puedes personalizarlos según tus necesidades) */
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Color de fondo gris para filas pares */
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff; /* Color de fondo blanco para filas impares */
+}
+
+/* Estilos para las celdas */
+td {
+    padding: 8px; /* Espaciado interno para las celdas */
+}
