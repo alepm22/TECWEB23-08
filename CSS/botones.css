@@ -1,0 +1,161 @@
+
+/*Boton 1*/
+#but1 {
+    --color: #FF0000;
+    font-family: inherit;
+    display: inline-block;
+    width: 8em;
+    height: 2.6em;
+    line-height: 2.5em;
+    margin: 20 auto;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid var(--color);
+    transition: color .5s;
+    z-index: 1;
+    font-size: 17px;
+    border-radius: 6px;
+    font-weight: 500;
+    color: #000000;
+   }
+  
+   #but1:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background: var(--color);
+    height: 150px;
+    width: 200px;
+    border-radius: 50%;
+   }
+   
+   #but1:hover {
+    color: #fcf7f7;
+   }
+   
+   #but1:before {
+    top: 100%;
+    left: 100%;
+    transition: all .7s;
+   }
+   
+   #but1:hover:before {
+    top: -30px;
+    left: -30px;
+   }
+   
+   #but1:active:before {
+    background: #FF0000;
+    transition: background 0s;
+   }
+
+   #but1 a {
+    color: inherit;
+    text-decoration: none;
+  }
+   /*Boton 2*/
+#but2 {
+    --color: #FFD700;
+    font-family: inherit;
+    display: inline-block;
+    width: 8em;
+    height: 2.6em;
+    line-height: 2.5em;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid var(--color);
+    transition: color .5s;
+    z-index: 1;
+    font-size: 17px;
+    border-radius: 6px;
+    font-weight: 500;
+    color: #000000;
+   }
+   
+   #but2:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background: var(--color);
+    height: 150px;
+    width: 200px;
+    border-radius: 50%;
+   }
+   
+   #but2:hover {
+    color: #fffbfb;
+   }
+   
+   #but2:before {
+    top: 100%;
+    left: 100%;
+    transition: all .7s;
+   }
+   
+   #but2:hover:before {
+    top: -30px;
+    left: -30px;
+   }
+   
+   #but2:active:before {
+    background: #FFD700;
+    transition: background 0s;
+   }
+#but2 a {
+    color: inherit;
+    text-decoration: none;
+  }
+      /*Boton 3*/
+#but3 {
+    --color: rgb(8, 8, 245);
+    font-family: inherit;
+    display: inline-block;
+    width: 8em;
+    height: 2.6em;
+    line-height: 2.5em;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid var(--color);
+    transition: color .5s;
+    z-index: 1;
+    font-size: 17px;
+    border-radius: 6px;
+    font-weight: 500;
+    color: #000000;
+   }
+   
+   #but3:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background: var(--color);
+    height: 150px;
+    width: 200px;
+    border-radius: 50%;
+   }
+   
+   #but3:hover {
+    color: #faf4f4;
+   }
+   
+   #but3:before {
+    top: 100%;
+    left: 100%;
+    transition: all .7s;
+   }
+   
+   #but3:hover:before {
+    top: -30px;
+    left: -30px;
+   }
+   
+   #but3:active:before {
+    background: #0000FF;
+    transition: background 0s;
+   }
+   #but3 a {
+    color: inherit;
+    text-decoration: none;
+  }

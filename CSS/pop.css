@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto 1fr;
+}
+.center {
+  display: block;
+  margin: auto;
+}
+#header-container {
+  height: 100%;
+}
+#header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #000;
+  color: white;
+  padding: 50px;
+  grid-column: 1 / 4;
+}
+
+#headerr h1 {
+  margin: 0;
+}
+
+#content {
+  display: grid;
+  grid-template-columns: 8fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+#left-panel {
+  background-color: #fbfafa;
+  color: #0b0b0b;
+  padding: 0 275px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+}
+
+#right-panel {
+  background-image: url('../Imagenes/pop.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #f7f7f7;
+  padding: 50px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 12px;
+}
+
+/* Estilo para la información desplegable */
+.contenido-desplegable h2 {
+  cursor: pointer;
+}
+
+/* Esconde el contenido del div */
+#tipos {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.1s ease-in-out;
+}
+
+/* Muestra el contenido cuando el checkbox está marcado */
+#toggle-tipos:checked ~ #tipos {
+  max-height: 5500px;
+  transition: max-height 0.3s ease-in-out;
+}
+
+.imagenYtexto {
+  width: 50%;
+  float: right;
+  margin-right: 20px;
+}
+
+.imagenYtexto img {
+  width: 100%;
+  height: auto;
+}
+
+.pf {
+  width: 100%; /* Cambié el ancho a 100% para ocupar todo el ancho de la pantalla */
+  max-width: 100%; /* Añadí max-width: 100% para asegurarte de que no se desborde en pantallas pequeñas */
+  height: auto;
+}
+.portadas {
+  width: 200px;
+  height: 200px;
+}
+
+.center {
+  display: block;
+  margin: auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  flex: 1;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}

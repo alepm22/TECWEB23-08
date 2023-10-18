@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto 1fr;
+  }
+  
+  #header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #010101;
+    color: white;
+    padding: 50px;
+    grid-column: 1 / 4;
+  }
+  
+  #header h1 {
+    margin: 0;
+  }
+  
+  #content {
+    display: grid;
+    grid-template-columns: 8fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column: 1 / 4;
+  }
+  
+  #left-panel {
+    background-color: #f4f1f1;
+    color: #080808;
+    padding: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+  }
+
+  #right-panel {
+    background-image: url('https://th.bing.com/th/id/R.05b890279a15fad6a8d3a3fc28553419?rik=wdgTzzWKY8ba8w&riu=http%3a%2f%2f1.bp.blogspot.com%2f_ANvDY17mQuI%2fTUvE5L-kvPI%2fAAAAAAAAAEs%2f-sj7TQ8DXNk%2fs1600%2f314yr1c.jpg&ehk=vcEvR%2fbf%2fXo3T5FVdJZK169N5tB5qMHT7%2fVAq6acHLs%3d&risl=&pid=ImgRaw&r=0');
+    color: #f7f7f7;
+    padding: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+  }
+  
+/* Estilo para la información desplegable */
+.contenido-desplegable h2 {
+  cursor: pointer;
+}
+
+/* Esconde el contenido del div */
+#tipos {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.1s ease-in-out;
+}
+
+/* Muestra el contenido cuando el checkbox está marcado */
+#toggle-tipos:checked ~ #tipos {
+  max-height: 5500px;
+  transition: max-height 0.3s ease-in-out;
+}
+
+
+.imagenYtexto{
+  width: 50%;
+  float: right;
+  margin-right: 20px;
+}
+
+.imagenYtexto img {
+  width: 100%;
+  height: auto;
+}
+
+.pf {
+    width: 900px;
+    height: 400px;
+  }
+  .portadas {
+    width: 300px;
+    height: 300px;
+  }
+
+  .center {
+    display: block;
+    margin: auto;
+  }
+.container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .column {
+    flex: 1;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }

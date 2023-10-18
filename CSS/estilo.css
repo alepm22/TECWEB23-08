@@ -1,0 +1,379 @@
+/* Estilo del encabezado */
+header {
+    background-color: #0a0a0a;
+
+ /* Cambia el color de fondo a dorado */
+    padding: 2px 0; /* Altura del borde superior */
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+#header .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.header-content .logo {
+    display: flex;
+    align-items: center;
+}
+
+.header-content .logo img {
+    width: 66px;
+    height: auto;
+   /* background-size: cover;*/
+    margin-right: 3px; /* Espacio entre el logotipo y el título */
+    /*box-shadow: 0 0 10px white; /* Sombra blanca alrededor del disco */
+}
+
+.header-content h1 {
+    color: #f9c024;
+    font-size: 2rem;
+    text-shadow: 2px 2px 4px #a98416; /* Ajusta los valores según tus preferencias */
+}
+/*MAIN*/
+/*MAIN*/
+.main {
+    background-image: url('https://wallpaperaccess.com/full/2732264.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    text-align: center;
+    color: #fff; /* Color del texto */
+    padding: 290px 0;
+}
+
+
+.main-text {
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo semi-transparente oscuro */
+    padding: 20px;
+    border-radius: 3px; /* Esquinas redondeadas para el texto superpuesto */
+}
+
+.main-text h2 {
+    font-size: 3rem; /* Tamaño del título del texto */
+}
+
+.main-text p {
+    font-size: rem; /* Tamaño del texto descriptivo */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Elimina el margen del último elemento */
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* Estilo del héroe (sección principal) */
+.hero {
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+}
+
+.hero p {
+    font-size: 3rem;
+    margin: 20px 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 20px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/* Estilo de la sección de características */
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+    background-color: #fbfbfbe6;
+    margin-top: -50px;
+}
+
+.feature {
+    text-align: center;
+}
+
+/* Estilo del pie de página */
+footer {
+   background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: -10px;
+}
+
+
+
+/* Estilos para los botones */
+#butt1{
+    font-family: inherit;
+    display: inline-block;
+    width: 8em;
+    height: 2.6em;
+    line-height: 2.6em;
+    margin: 100px auto;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid transparent;
+    transition: all 0.5s;
+    font-size: 17px;
+    border-radius: 6px;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    background: #f9c024;
+    cursor: pointer;
+}
+
+#butt1:hover {
+    background: #faf6f6;/*relleno*/
+    border: 2px solid #0c0c0c;
+    color: #000000;
+}
+
+#butt1:active{
+    transform: translateY(4px);
+}
+
+/* Agrega otros estilos CSS según tus preferencias */
+
+/*body {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/* Agregamos la fuente de Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/* Estilos para el encabezado */
+/*#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   /* background-image: url('../Imagenes/hh.jpg');
+    background-size: cover; /* Esto hará que la imagen cubra todo el fondo */
+   /* background-repeat: no-repeat;
+    background-attachment: fixed; /* Esto fijará la imagen en su lugar */
+  /*  background-color: #1f1e1e;
+    color: white;
+    padding: 20px;
+}
+
+#header h1 {
+    margin: 0;
+}
+
+#header button {
+    display: inline-block;
+    margin: 15px;
+}
+
+#header .button-container {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px; /* Aumentamos el espacio entre los botones */
+/*}
+
+#main {
+    background-color: #f9f9f9; /* Cambiamos el color de fondo del contenido principal */
+   /* color: #333;
+    padding: 20px; /* Aumentamos el padding */
+   /* font-family: 'Times New Roman', Times, serif;
+    font-size: 16px; /* Aumentamos el tamaño de fuente */
+   /* max-width: 100%;
+    overflow-x: hidden;
+}
+
+#footer {
+    background-color: #333; /* Cambiamos el color de fondo del pie de página */
+   /* color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Estilos para pantallas más pequeñas que 600px */
+/*
+@media (max-width: 600px) {
+    #header {
+        flex-direction: column;
+    }
+
+    #header h1 {
+        margin: 20px auto;
+    }
+
+    #main, #footer {
+        padding: 10px;
+    }
+}
+
+/* Estilos para la tabla de canciones */
+#canciones {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #1f1e1e;
+    color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#canciones h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px; /* Aumentamos el padding de las celdas */
+    text-align: left;
+}
+
+th {
+    background-color: #2c2c2c;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff; /* Cambiamos el color de los enlaces */
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para el formulario de comentarios */
+#comment-form {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+}
+
+#comment-form:hover {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#comment-form h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#comment-form form {
+    margin-top: 10px;
+}
+
+#comment-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+#comment-form input[type="text"],
+#comment-form textarea,
+#comment-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    color: #333;
+    transition: border-color 0.3s, background-color 0.3s;
+}
+
+#comment-form input[type="text"]:focus,
+#comment-form textarea:focus,
+#comment-form select:focus {
+    border-color: #007bff;
+    background-color: #fff;
+    outline: none;
+}
+
+#comment-form textarea {
+    resize: vertical;
+}
+
+#comment-form button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#comment-form button:hover {
+    background-color: #0056b3;
+}
+
+#comment-form button:focus {
+    outline: none;
+}
+/* Estilo para la imagen */
+.imagen-ajustada {
+    width: 300px; /* Establece el ancho deseado */
+    height: auto; /* El alto se ajustará automáticamente para mantener la proporción original */
+
+}
+
+.image-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
